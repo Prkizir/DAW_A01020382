@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #lab1_header{
     font-size: 6em; 
     text-align: center;
@@ -63,4 +64,71 @@ li a:hover{
 
 #referencias{
     font-size:1.4em;
+=======
+#lab1_header{
+    font-size: 6em; 
+    text-align: center;
+}
+
+a{
+    color: gainsboro
+}
+body{
+    background-image: url(cosmos.png);
+    text-align: justify;
+}
+
+h1,h2{
+    color: grey
+}        
+
+p{
+    color: gainsboro
+}
+
+ul{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    width: 50%;
+}
+
+
+li a{
+    color: black; 
+    padding: 1%; 
+    background-color: #494748; 
+    display: block; 
+    text-align: center; 
+    text-decoration: none
+}
+
+li a:hover{
+    background-color: #303030;
+}
+
+
+.aboutMe{
+    visibility: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.aboutMe:hover{
+    visibility:visible;
+    position: absolute;
+    z-index: 1;
+}
+
+#cuestionario{
+    font-size: 3em;
+}
+
+#referencias{
+    font-size:1.4em;
+>>>>>>> 75175f422b26acc5b7b829fc494694b72a8cc5ed
 }

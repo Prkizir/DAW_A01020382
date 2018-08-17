@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
     background-color: black;
 }
@@ -60,4 +61,68 @@ html, body {
 
 .drop_menu_content a:hover{
     background-color: #333333;
+=======
+html, body {
+    background-color: black;
+}
+
+.main_header h1{
+    font-family: sans;
+    font-size: 4em;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.main_header img{
+   margin-top: -8%; 
+   float: left;
+}
+
+.drop_align{
+    text-align: center;
+}
+
+.drop_button{
+    background-color: dimgrey;
+    color: white;
+    padding: 0.03%;
+    font-size: 1.3em;
+    border: none;
+}
+
+.drop_menu{
+    position: relative;
+    display: inline-block;
+}
+
+.drop_menu_content{
+    display: none;
+    position: absolute;
+    background-color: gainsboro;
+    min-width: 8.4em;
+    z-index: 1;
+}
+
+.drop_menu_content a{
+    color: black;
+    padding: 5% 0em;
+    text-decoration: none;
+    display: block;
+}
+
+.drop_menu:hover .drop_menu_content{
+    display: block;
+}
+
+.drop_menu:hover .drop_button{
+    background-color: #4d4d4d;
+}
+
+.drop_menu_content a:hover{
+    background-color: #333333;
+>>>>>>> 75175f422b26acc5b7b829fc494694b72a8cc5ed
 }
