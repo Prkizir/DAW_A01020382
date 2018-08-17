@@ -1,5 +1,246 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="mini_lab1_style.css"/>
+<body>
+    
+    <section>
+        <h1 id="lab1_header">
+            <img src="bonfire.gif" style="vertical-align: bottom;">
+            Laboratorio 1 - DAW
+        </h1>
+    </section>
+    
+    <section>
+        <ul>
+            <li> 
+                <a href="AboutMe.html">
+                    Sobre Mi   
+                </a>
+            </li>
+            <li> 
+                <a href="YouDied.html">
+                    No presionar Boton 
+                </a>
+            </li>
+        </ul>
+    </section>
+    
+    <br>
+   
+    <h2 id="cuestionario">Cuestionario</h2>
+    
+    <section>
+        <hr>
+        <h1>
+            ¿Cual es la diferencia entre internet y la World Wide Web? 
+        </h1>
+        <p>
+            Internet es el medio por donde se interconectan diversos dispositivos a una red. La World Wide Web es la manera en que accedemos a la información en el medio a través de protocolos como HTTP (HyperText Transfer Protocol).</p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            ¿Cuál es el proposito de los métodos HTTP: GET,   HEAD, POST, PUT, PATCH,DELETE?
+        </h1>
+        <p>
+            GET: Es un método que se usa para solicitar información.  Se debe evitar usar este método para mandar información. <br><br>
+            HEAD:  Este método se usa para obtener información sobre la entidad que implica la solicitud sin transferir la entidad como tal. Es bastante similar a GET, pero sin regresar lo que la entidad responde, puede servir para verificar qué se va a mandar antes de un GET. <br><br>
+            POST: Se usa para mandar información al servidor.<br><br>
+            PUT: Actualización de datos.<br><br>
+            PATCH: Actualización de datos.<br><br>
+            DELETE: Manda una solicitud al servidor para eliminar un recurso en específico
+        </p>
+        <hr>
+    </section>
+
+    <section>
+        <h1>
+            ¿Qué método HTTP se debe utilizar al evniar un formulario HTML, por ejemplo cuando ingresas tu usario y contraseña en algún sitio? ¿Por qué?
+        </h1>
+        <p>
+            POST, ya que se maneja información sensible. Es mejor usar este método ya que la información no se puede observar en el URL. </p>
+        <hr>
+    </section>
+
+    <section>
+        <h1>
+            ¿Qué método HTTP se utiliza cuando a través de un navegador web se accede a una página a través de un URL?</h1>
+        <p>
+            Para acceder a una página a través de un navegador web, se utiliza el GET. Usa una referencia a la página que se trata de acceder, no se busca mandar información. 
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            Un servidor web devuelve una respuesta HTTP con código 200. ¿Qué significa esto? ¿Ocurrió algún error?</h1>
+        <p>
+            200: OK; No ocurrió ningún error. El código 200 indica que la petición se completó con éxito.
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            ¿Es responsabilidad del desarrollador corregir un  sitio web si un usuario reporta que intentó acceder al sitio y se encontró con un error 404? ¿Por qué?
+        </h1>
+        <p>
+            404: Not Found; Indica que no se encontró ningún recurso que coincida con la solicitud. Se usa también para limitar a los usuarios de acceder a cierto contenido sin la necesidad de dar una explicación del por qué ese recurso no está disponible para ciertos usuarios por lo que no es necesario corregir un sitio web con este error a menos que se busque un resultado diferente.
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            ¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio y se encontró con un error 500? ¿Por qué?
+        </h1>
+        <p>
+            500: Internal Server Error; Este error indica que hubo un problema en el servidor que le impide completar la petición, por lo que es importante encontrar el problema y corregirlo. 
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            ¿Qué significa que un atributo HTML5 esté depreciado o desaprobado (deprecated)? Menciona algunos elementos de HTML 4 que en HTML5 estén desaprobados.
+        </h1>
+        <p>
+            Cuando se habla de un atributo despreciado significa que el sistema lo sigue soportando pero que ya no se recomienda su uso. Algunos elementos despreciados son: <br><br>
+	       - BASEFONT: Cambiar fuente base (pref. style sheet) <br><br>
+	       -CENTER: Bloque centrado (pref. style sheet)        <br><br>
+	       -FONT: Cambiar fuente (pref. style sheet)           <br><br>
+	       -U: Texto subrayado (pref. style sheet)             <br><br>
+	       -MENU: Lista (pref. UL)                             
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            ¿Cuáles son las diferencias principales entre HTML 4 y HTML5?
+        </h1>
+        <p>
+            HTML5 tiene una sintaxis más simplificada y es más flexible en cuanto a funcionalidad. Se pueden integrar nuevos elementos multimedia como videos y audio directamente. Existe una comunicación full dúplex entre servidor y cliente. HTML4 al tener más tiempo, es compatible con casi todos los buscadores web. 
+        </p>
+    </section>
+    
+    <section>
+        <h1>
+            ¿Qué componentes de estructura y estilo tiene una tabla?
+        </h1>
+        <p>
+            Los componentes que definen la estructura basica de una tabla son: <br><br>
+            &lt;tr&gt;: indica las filas en la tabla <br><br>
+            &lt;th&gt;: este tag define el header del segmento de la tabla <br><br>
+            &lt;td&gt;: Los datos de la tabla se definen con este tag <br><br>
+            
+            Los estilos de la tabla pueden variar dependiendo las configuraciones que CSS provee.
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            ¿Cuáles son los principales controles de una forma HTML5?
+        </h1>
+        <p>
+           Son la manera en que los inputs son recibidos por el sistema. Campos de texto, botones, etc. 
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            Soporte del buscador web que estoy utilizando actualmente:
+        </h1>
+        <p>
+            <a href="http://html5test.com/s/d8cbe43f49573e50.html">Mis resultados</a>
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            Sobre el ciclo de vida y desarrollo de los sistemas de información: <br>
+            ¿Cuál es el ciclo de vida de los sistemas de información? <br>
+            ¿Cuál es el ciclo de desarrollo de sistemas de información?
+        </h1>
+        <p>
+            El ciclo de vida del sistema se refiere al periodo en que el sistema se encuentra en uso hasta que deja de cumplir su utilidad. <br><br>
+            El ciclo de desarrollo nos habla del periodo antes de la entrega del producto.
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            Como ingeniero de software ¿cuál es tu recomendación sobre el uso de !important en un CSS? 
+        </h1>
+        <p>
+            El !important debería ser utilizado como una solución de último recurso, ya que el mismo es radical. Es básicamente una regla que sobreescribe a las otras y hay que tener cuidado con qué elementos aplicamos esta regla, ya que aplicado en elementos con reglas de menor prioridad, puede sobreescribir cualquier especificación sobre dicho elemento y puede afectar el trabajo colaborativo.
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            Si se pone una imagen de fondo en una página HTML, ¿por qué debe escogerse con cuidado?
+        </h1>
+        <p>
+            Es importante analizar la imagen que se pueda utilizar de fondo ya que el tamaño sí importa ( ͡° ͜ʖ ͡°). <br>
+            Existen varios atributos que pueden modificar una imagen de fondo y cosas inesperadas pueden suceder si no se manejan dichos atributos correctamente, además de que la imagen puede no ser un vector y la calidad de la misma puede verse altamente afectada y también puede que no cubra toda la pag. sin repetirse.
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            Como ingeniero de software, ¿cuál es tu recomendación al elegir las unidades de un propiedad de estilo entre %, px y pt?
+        </h1>
+        <p>
+            Personalmente recomendaría el uso del % ya que dichas son adaptables al dispositivo donde se esté visualizando el contenido. px y pt pueden tener definiciones diferentes entre dispositivos y al ser valores fijos, pueden afectar la estructura de la pag.
+        </p>
+        <hr>
+    </section>
+    
+    <section>
+        <h1>
+            ¿Por qué el uso de una versión minimizada del CSS mejora el rendimiento del sitio?
+        </h1>
+        <p>
+            Porque al hacer una petición si se usa la versión minimizada, el ancho de banda que se usa para enviar la información contenida en el CSS es mucho menor, lo que reduce los tiempos de respuesta y por ende una carga más rápida.
+        </p>
+    </section>
+    
+    <section>
+        <h1 id = "referencias"> Referencias</h1>
+        <p>
+            [1] <a href="https://www.webopedia.com/DidYouKnow/Internet/Web_vs_Internet.asp"> https://www.webopedia.com/DidYouKnow/Internet/Web_vs_Internet.asp </a> <br>
+            [2] <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html"> https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html </a> <br>
+            [3] <a href="https://www.w3schools.com/tags/att_form_method.asp"> https://www.w3schools.com/tags/att_form_method.asp </a> <br>
+            [4] <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html"> https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html </a> <br>
+            [5] <a href="http://www.htmlhelp.com/reference/html40/deprecated.html"> http://www.htmlhelp.com/reference/html40/deprecated.html </a> <br>
+        </p>
+    </section>
+    
+    <hr>
+    
+    <footer>
+        <p>Autor: Sergio Isaac Mercado Silvano A01020382</p>
+        <p style="color: aliceblue"> Hecho con: <br>
+            <a href="http://brackets.io/" style="text-decoration: none">
+                <img src="brackets_icon.png" style="width: 55px; height: 60px">
+            </a>
+
+            <br>
+            Descarga Brackets <a href="http://brackets.io/"> aquí</a>.
+        </p>
+    </footer>
+</body>
+=======
+<!DOCTYPE html>
+<html>
     <style>
         a{
             color: gainsboro
