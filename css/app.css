@@ -1,0 +1,45 @@
+h1,h2{
+    text-align: center;
+    font-family: sans;
+    color: white;
+}
+
+div h3{
+    text-align: justify;
+    text-align: left;
+    font-family: sans;
+    font-size: 1.6em;
+    color: white;
+}
+
+div p{
+    text-align: justify;
+    text-align: left;
+    font-family: sans;
+    font-size: 1.3em;
+    color: white;
+    line-height: 1em;
+}
+
+footer p{
+    color: white;
+    padding-left: 1.6em;
+    line-height: 1.4em;
+}
+
+#brkicon{
+    height: 4em;
+    width: 3.8em;
+}
+
+.indexBody{
+    background-image: url(../img/horrorterrors.png);
+}
+
+.lab{
+    background-color: black
+}
+
+.qna{
+    padding-left: 1.4em;
+}
